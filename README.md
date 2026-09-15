@@ -209,7 +209,8 @@ problem.
 
 What works is the Apple Boot Camp lineage: `boardtype=0x073e`, `boardrev=0x1101`, and
 importantly `ccode=0` with `regrev=1`. The chip's country detection is broken and ccode=0
-sidesteps it rather than feeding it a country string it mishandles.
+sidesteps it rather than feeding it a country string it mishandles. 
+Replace <your MAC> with your hardware address, see below.
 
 ```bash
 cd /tmp
@@ -526,4 +527,4 @@ and was useful, and [takachin](https://takachin.github.io/mbp2017-linux-note/) d
 MBP suspend investigation.
 
 
-Written up with AI assistance, tested myself on my own macbook.
+Written up with AI assistance, tested myself on my own MacBook.
